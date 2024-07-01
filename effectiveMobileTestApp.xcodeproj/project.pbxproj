@@ -7,23 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772FE38FD508651A98CF0312 /* Pods_effectiveMobileTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0785452AA41719A57B9B971B /* Pods_effectiveMobileTestApp.framework */; };
 		85869BEF2C2A252300EC1380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869BEE2C2A252300EC1380 /* AppDelegate.swift */; };
-		85869BF12C2A252300EC1380 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869BF02C2A252300EC1380 /* SceneDelegate.swift */; };
 		85869BF32C2A252300EC1380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869BF22C2A252300EC1380 /* ViewController.swift */; };
-		85869BF62C2A252300EC1380 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 85869BF52C2A252300EC1380 /* Base */; };
 		85869BF82C2A252500EC1380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85869BF72C2A252500EC1380 /* Assets.xcassets */; };
 		85869BFB2C2A252500EC1380 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 85869BFA2C2A252500EC1380 /* Base */; };
+		85869C042C2A266800EC1380 /* TabBarPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C032C2A266800EC1380 /* TabBarPage.swift */; };
+		85869C062C2A267800EC1380 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C052C2A267800EC1380 /* Coordinator.swift */; };
+		85869C082C2A268D00EC1380 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C072C2A268D00EC1380 /* TabBarCoordinator.swift */; };
+		85869C112C2A26E400EC1380 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C102C2A26E400EC1380 /* TabBarController.swift */; };
+		85869C132C2A26FC00EC1380 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C122C2A26FC00EC1380 /* AppCoordinator.swift */; };
+		85869C222C2A27A200EC1380 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C212C2A27A200EC1380 /* MainController.swift */; };
+		85869C242C2A28F700EC1380 /* NetworkWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C232C2A28F700EC1380 /* NetworkWorker.swift */; };
+		85869C262C2A293900EC1380 /* ApiSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C252C2A293900EC1380 /* ApiSettings.swift */; };
+		85869C2A2C2A296400EC1380 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C292C2A296400EC1380 /* ApiService.swift */; };
+		85869C2C2C2A297A00EC1380 /* ApiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C2B2C2A297A00EC1380 /* ApiRepository.swift */; };
+		85869C2F2C2A2A7400EC1380 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C2E2C2A2A7400EC1380 /* Resolver.swift */; };
+		85869C312C2A2BFD00EC1380 /* MainScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C302C2A2BFD00EC1380 /* MainScreenModel.swift */; };
+		85869C332C2A2C6500EC1380 /* SearchScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C322C2A2C6500EC1380 /* SearchScreenModel.swift */; };
+		85869C352C2A2C7200EC1380 /* AllTicketsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C342C2A2C7200EC1380 /* AllTicketsModel.swift */; };
+		85869C372C2A2E2D00EC1380 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C362C2A2E2D00EC1380 /* MainCoordinator.swift */; };
+		85869C3B2C2A303F00EC1380 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C3A2C2A303F00EC1380 /* MainViewModel.swift */; };
+		85869C412C2A38F700EC1380 /* MockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C402C2A38F700EC1380 /* MockViewController.swift */; };
+		85869C432C2A3E6C00EC1380 /* OfferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C422C2A3E6C00EC1380 /* OfferCollectionViewCell.swift */; };
+		85869C492C2A48F000EC1380 /* SFProDisplayFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C482C2A48F000EC1380 /* SFProDisplayFont.swift */; };
+		85869C4E2C2A4A8A00EC1380 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C4D2C2A4A8A00EC1380 /* Constants.swift */; };
+		85869C512C2B7DA100EC1380 /* SearchModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C502C2B7DA100EC1380 /* SearchModalViewController.swift */; };
+		85869C552C2D9C3200EC1380 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C542C2D9C3100EC1380 /* CustomTextField.swift */; };
+		85869C572C2D9DD900EC1380 /* CustomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85869C562C2D9DD900EC1380 /* CustomCardView.swift */; };
+		85CB2F742C2DDC0800F172F6 /* PopularCityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB2F732C2DDC0800F172F6 /* PopularCityTableViewCell.swift */; };
+		85CB2F772C2DDF3900F172F6 /* SearchModalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB2F762C2DDF3900F172F6 /* SearchModalViewModel.swift */; };
+		85CB2F7D2C2E0F0600F172F6 /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB2F7C2C2E0F0600F172F6 /* TicketsViewController.swift */; };
+		85CB2F812C2E122400F172F6 /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB2F802C2E122400F172F6 /* TicketTableViewCell.swift */; };
+		85CB2F832C2E12F700F172F6 /* TicketsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB2F822C2E12F700F172F6 /* TicketsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0785452AA41719A57B9B971B /* Pods_effectiveMobileTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_effectiveMobileTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76860B988F8863082C3E706D /* Pods-effectiveMobileTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-effectiveMobileTestApp.debug.xcconfig"; path = "Target Support Files/Pods-effectiveMobileTestApp/Pods-effectiveMobileTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		85869BEB2C2A252300EC1380 /* effectiveMobileTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = effectiveMobileTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85869BEE2C2A252300EC1380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85869BF02C2A252300EC1380 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		85869BF22C2A252300EC1380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		85869BF52C2A252300EC1380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85869BF72C2A252500EC1380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85869BFA2C2A252500EC1380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85869BFC2C2A252500EC1380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85869C032C2A266800EC1380 /* TabBarPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPage.swift; sourceTree = "<group>"; };
+		85869C052C2A267800EC1380 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		85869C072C2A268D00EC1380 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		85869C102C2A26E400EC1380 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		85869C122C2A26FC00EC1380 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		85869C212C2A27A200EC1380 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		85869C232C2A28F700EC1380 /* NetworkWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWorker.swift; sourceTree = "<group>"; };
+		85869C252C2A293900EC1380 /* ApiSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSettings.swift; sourceTree = "<group>"; };
+		85869C292C2A296400EC1380 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		85869C2B2C2A297A00EC1380 /* ApiRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRepository.swift; sourceTree = "<group>"; };
+		85869C2E2C2A2A7400EC1380 /* Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
+		85869C302C2A2BFD00EC1380 /* MainScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenModel.swift; sourceTree = "<group>"; };
+		85869C322C2A2C6500EC1380 /* SearchScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenModel.swift; sourceTree = "<group>"; };
+		85869C342C2A2C7200EC1380 /* AllTicketsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTicketsModel.swift; sourceTree = "<group>"; };
+		85869C362C2A2E2D00EC1380 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		85869C3A2C2A303F00EC1380 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		85869C402C2A38F700EC1380 /* MockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockViewController.swift; sourceTree = "<group>"; };
+		85869C422C2A3E6C00EC1380 /* OfferCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionViewCell.swift; sourceTree = "<group>"; };
+		85869C482C2A48F000EC1380 /* SFProDisplayFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFProDisplayFont.swift; sourceTree = "<group>"; };
+		85869C4A2C2A49BA00EC1380 /* SFPRODISPLAYBOLD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBOLD.ttf; sourceTree = "<group>"; };
+		85869C4B2C2A49BA00EC1380 /* SFPRODISPLAYMEDIUM.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYMEDIUM.ttf; sourceTree = "<group>"; };
+		85869C4C2C2A49BA00EC1380 /* SFPRODISPLAYREGULAR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYREGULAR.ttf; sourceTree = "<group>"; };
+		85869C4D2C2A4A8A00EC1380 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		85869C502C2B7DA100EC1380 /* SearchModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModalViewController.swift; sourceTree = "<group>"; };
+		85869C542C2D9C3100EC1380 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		85869C562C2D9DD900EC1380 /* CustomCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardView.swift; sourceTree = "<group>"; };
+		85CB2F732C2DDC0800F172F6 /* PopularCityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCityTableViewCell.swift; sourceTree = "<group>"; };
+		85CB2F762C2DDF3900F172F6 /* SearchModalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModalViewModel.swift; sourceTree = "<group>"; };
+		85CB2F7C2C2E0F0600F172F6 /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
+		85CB2F802C2E122400F172F6 /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
+		85CB2F822C2E12F700F172F6 /* TicketsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewModel.swift; sourceTree = "<group>"; };
+		DEB7B0A11502E0D6A08DEE39 /* Pods-effectiveMobileTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-effectiveMobileTestApp.release.xcconfig"; path = "Target Support Files/Pods-effectiveMobileTestApp/Pods-effectiveMobileTestApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +90,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772FE38FD508651A98CF0312 /* Pods_effectiveMobileTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4021B002ED725E283AD1B54C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76860B988F8863082C3E706D /* Pods-effectiveMobileTestApp.debug.xcconfig */,
+				DEB7B0A11502E0D6A08DEE39 /* Pods-effectiveMobileTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C29A3707E8D39782D6943EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0785452AA41719A57B9B971B /* Pods_effectiveMobileTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85869BE22C2A252300EC1380 = {
 			isa = PBXGroup;
 			children = (
 				85869BED2C2A252300EC1380 /* effectiveMobileTestApp */,
 				85869BEC2C2A252300EC1380 /* Products */,
+				4021B002ED725E283AD1B54C /* Pods */,
+				7C29A3707E8D39782D6943EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +135,212 @@
 		85869BED2C2A252300EC1380 /* effectiveMobileTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				85869C462C2A48DD00EC1380 /* Tools */,
+				85869C2D2C2A2A6B00EC1380 /* DI */,
+				85869C0D2C2A26CA00EC1380 /* Network */,
+				85869C0A2C2A26BC00EC1380 /* Models */,
+				85869C022C2A265300EC1380 /* Coordinator */,
+				85869C0E2C2A26D500EC1380 /* Scenarios */,
 				85869BEE2C2A252300EC1380 /* AppDelegate.swift */,
-				85869BF02C2A252300EC1380 /* SceneDelegate.swift */,
 				85869BF22C2A252300EC1380 /* ViewController.swift */,
-				85869BF42C2A252300EC1380 /* Main.storyboard */,
 				85869BF72C2A252500EC1380 /* Assets.xcassets */,
 				85869BF92C2A252500EC1380 /* LaunchScreen.storyboard */,
 				85869BFC2C2A252500EC1380 /* Info.plist */,
 			);
 			path = effectiveMobileTestApp;
+			sourceTree = "<group>";
+		};
+		85869C022C2A265300EC1380 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				85869C092C2A26AF00EC1380 /* CoordinatorScenarios */,
+				85869C032C2A266800EC1380 /* TabBarPage.swift */,
+				85869C052C2A267800EC1380 /* Coordinator.swift */,
+				85869C072C2A268D00EC1380 /* TabBarCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		85869C092C2A26AF00EC1380 /* CoordinatorScenarios */ = {
+			isa = PBXGroup;
+			children = (
+				85869C122C2A26FC00EC1380 /* AppCoordinator.swift */,
+				85869C362C2A2E2D00EC1380 /* MainCoordinator.swift */,
+			);
+			path = CoordinatorScenarios;
+			sourceTree = "<group>";
+		};
+		85869C0A2C2A26BC00EC1380 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85869C302C2A2BFD00EC1380 /* MainScreenModel.swift */,
+				85869C322C2A2C6500EC1380 /* SearchScreenModel.swift */,
+				85869C342C2A2C7200EC1380 /* AllTicketsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85869C0D2C2A26CA00EC1380 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				85869C232C2A28F700EC1380 /* NetworkWorker.swift */,
+				85869C252C2A293900EC1380 /* ApiSettings.swift */,
+				85869C292C2A296400EC1380 /* ApiService.swift */,
+				85869C2B2C2A297A00EC1380 /* ApiRepository.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		85869C0E2C2A26D500EC1380 /* Scenarios */ = {
+			isa = PBXGroup;
+			children = (
+				85869C382C2A302900EC1380 /* Modals */,
+				85869C0F2C2A26DB00EC1380 /* TabBar */,
+				85869C202C2A279C00EC1380 /* Main */,
+				85869C3F2C2A38D900EC1380 /* Mock */,
+			);
+			path = Scenarios;
+			sourceTree = "<group>";
+		};
+		85869C0F2C2A26DB00EC1380 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				85869C102C2A26E400EC1380 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		85869C202C2A279C00EC1380 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				85CB2F7B2C2E0EEC00F172F6 /* Tickets */,
+				85869C3C2C2A307400EC1380 /* Cells */,
+				85869C392C2A303100EC1380 /* ViewModel */,
+				85869C212C2A27A200EC1380 /* MainController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		85869C2D2C2A2A6B00EC1380 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				85869C2E2C2A2A7400EC1380 /* Resolver.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		85869C382C2A302900EC1380 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				85869C4F2C2B7D9300EC1380 /* Search */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		85869C392C2A303100EC1380 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				85869C3A2C2A303F00EC1380 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		85869C3C2C2A307400EC1380 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				85869C422C2A3E6C00EC1380 /* OfferCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		85869C3F2C2A38D900EC1380 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				85869C402C2A38F700EC1380 /* MockViewController.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		85869C462C2A48DD00EC1380 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				85869C532C2D9C2800EC1380 /* Custom */,
+				85869C472C2A48E000EC1380 /* Font */,
+				85869C4D2C2A4A8A00EC1380 /* Constants.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		85869C472C2A48E000EC1380 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				85869C4A2C2A49BA00EC1380 /* SFPRODISPLAYBOLD.ttf */,
+				85869C4B2C2A49BA00EC1380 /* SFPRODISPLAYMEDIUM.ttf */,
+				85869C4C2C2A49BA00EC1380 /* SFPRODISPLAYREGULAR.ttf */,
+				85869C482C2A48F000EC1380 /* SFProDisplayFont.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		85869C4F2C2B7D9300EC1380 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				85CB2F722C2DDBF700F172F6 /* Cells */,
+				85CB2F752C2DDF0A00F172F6 /* ViewModel */,
+				85869C502C2B7DA100EC1380 /* SearchModalViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		85869C532C2D9C2800EC1380 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				85869C542C2D9C3100EC1380 /* CustomTextField.swift */,
+				85869C562C2D9DD900EC1380 /* CustomCardView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		85CB2F722C2DDBF700F172F6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				85CB2F732C2DDC0800F172F6 /* PopularCityTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		85CB2F752C2DDF0A00F172F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				85CB2F762C2DDF3900F172F6 /* SearchModalViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		85CB2F7B2C2E0EEC00F172F6 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				85CB2F7E2C2E0F9E00F172F6 /* Cells */,
+				85CB2F7F2C2E0FAB00F172F6 /* ViewModel */,
+				85CB2F7C2C2E0F0600F172F6 /* TicketsViewController.swift */,
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		85CB2F7E2C2E0F9E00F172F6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				85CB2F802C2E122400F172F6 /* TicketTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		85CB2F7F2C2E0FAB00F172F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				85CB2F822C2E12F700F172F6 /* TicketsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +350,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85869BFF2C2A252500EC1380 /* Build configuration list for PBXNativeTarget "effectiveMobileTestApp" */;
 			buildPhases = (
+				1113341BFF555D42C45C6C3C /* [CP] Check Pods Manifest.lock */,
 				85869BE72C2A252300EC1380 /* Sources */,
 				85869BE82C2A252300EC1380 /* Frameworks */,
 				85869BE92C2A252300EC1380 /* Resources */,
+				1AA5B2B11E08B4219999332D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +405,94 @@
 			files = (
 				85869BF82C2A252500EC1380 /* Assets.xcassets in Resources */,
 				85869BFB2C2A252500EC1380 /* Base in Resources */,
-				85869BF62C2A252300EC1380 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1113341BFF555D42C45C6C3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-effectiveMobileTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AA5B2B11E08B4219999332D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-effectiveMobileTestApp/Pods-effectiveMobileTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-effectiveMobileTestApp/Pods-effectiveMobileTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-effectiveMobileTestApp/Pods-effectiveMobileTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85869BE72C2A252300EC1380 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85869C062C2A267800EC1380 /* Coordinator.swift in Sources */,
+				85869C4E2C2A4A8A00EC1380 /* Constants.swift in Sources */,
+				85869C372C2A2E2D00EC1380 /* MainCoordinator.swift in Sources */,
+				85869C042C2A266800EC1380 /* TabBarPage.swift in Sources */,
+				85869C262C2A293900EC1380 /* ApiSettings.swift in Sources */,
 				85869BF32C2A252300EC1380 /* ViewController.swift in Sources */,
+				85869C432C2A3E6C00EC1380 /* OfferCollectionViewCell.swift in Sources */,
+				85869C492C2A48F000EC1380 /* SFProDisplayFont.swift in Sources */,
+				85CB2F7D2C2E0F0600F172F6 /* TicketsViewController.swift in Sources */,
+				85869C222C2A27A200EC1380 /* MainController.swift in Sources */,
+				85869C112C2A26E400EC1380 /* TabBarController.swift in Sources */,
+				85869C312C2A2BFD00EC1380 /* MainScreenModel.swift in Sources */,
+				85869C2C2C2A297A00EC1380 /* ApiRepository.swift in Sources */,
+				85869C572C2D9DD900EC1380 /* CustomCardView.swift in Sources */,
+				85869C082C2A268D00EC1380 /* TabBarCoordinator.swift in Sources */,
+				85869C512C2B7DA100EC1380 /* SearchModalViewController.swift in Sources */,
+				85869C352C2A2C7200EC1380 /* AllTicketsModel.swift in Sources */,
+				85869C2A2C2A296400EC1380 /* ApiService.swift in Sources */,
+				85CB2F832C2E12F700F172F6 /* TicketsViewModel.swift in Sources */,
+				85CB2F812C2E122400F172F6 /* TicketTableViewCell.swift in Sources */,
+				85869C332C2A2C6500EC1380 /* SearchScreenModel.swift in Sources */,
+				85869C412C2A38F700EC1380 /* MockViewController.swift in Sources */,
+				85869C2F2C2A2A7400EC1380 /* Resolver.swift in Sources */,
 				85869BEF2C2A252300EC1380 /* AppDelegate.swift in Sources */,
-				85869BF12C2A252300EC1380 /* SceneDelegate.swift in Sources */,
+				85869C552C2D9C3200EC1380 /* CustomTextField.swift in Sources */,
+				85CB2F742C2DDC0800F172F6 /* PopularCityTableViewCell.swift in Sources */,
+				85CB2F772C2DDF3900F172F6 /* SearchModalViewModel.swift in Sources */,
+				85869C132C2A26FC00EC1380 /* AppCoordinator.swift in Sources */,
+				85869C242C2A28F700EC1380 /* NetworkWorker.swift in Sources */,
+				85869C3B2C2A303F00EC1380 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		85869BF42C2A252300EC1380 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85869BF52C2A252300EC1380 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		85869BF92C2A252500EC1380 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,17 +625,18 @@
 		};
 		85869C002C2A252500EC1380 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76860B988F8863082C3E706D /* Pods-effectiveMobileTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 99J8T8PS7H;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = effectiveMobileTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,17 +654,18 @@
 		};
 		85869C012C2A252500EC1380 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB7B0A11502E0D6A08DEE39 /* Pods-effectiveMobileTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 99J8T8PS7H;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = effectiveMobileTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
